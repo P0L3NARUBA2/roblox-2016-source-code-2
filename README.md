@@ -1,44 +1,39 @@
-# Roblox 2016 Source code (REUPLOAD)
-this is a reupload of yung.dooms roblox-2016-source-code which privated or deleted this repo.
-
-Docs avaliable at: https://alexs-stuff.github.io/roblox-2016-source-code/
-
-discord server at: https://discord.gg/E8DnA6ZjJP
-
-# ORIGINAL (modified) README
 ![My *handmade* Roblox Logo](https://github.com/user-attachments/assets/ced623cd-6692-4759-8e46-e9453f5454fc)
 
+<p align="center">
+<img alt="GitHub Repo Size" src="https://img.shields.io/github/repo-size/P0L3NARUBA/roblox-2016-source-code">
+<img alt="GitHub Release" src="https://img.shields.io/github/v/release/P0L3NARUBA/roblox-2016-source-code">
+</p>
+
 # Roblox 2016 Source Code
+This source originates from robloxsrc.zip that was spinning around but its rare to find these days.<br>
+After a long effort, this repository has been brought to you on github with handful of changes!<br>
 
-This source originates from **[robloxsrc.zip](https://mega.nz/file/mrxkSRRK#n5YmV1iPUPZCfiI6IDWkT3eDq9k3-yA7rl_hURked8Y)**, which was circulating some time ago but has become hard to find.<br>
-After a long effort, this repository has been brought to GitHub with many improvements!
+**To see how you can build from the source, refer to [BUILDING.md](/BUILDING.md)**<br>
+   - Make sure to read them properly so you wont face with any issues.
 
-**To build from the source, refer to [BUILDING.md](/BUILDING.md)**<br>
-   - Make sure to read it thoroughly to avoid any issues.
+**Having any problems? you can get help at [our discord server](https://www.discord.gg/rVrYHdrbsp) or at the [Issues](https://github.com/P0L3NARUBA/roblox-2016-source-code/issues)**<br>
 
-**Experiencing problems? You can get help via [our Discord server](https://www.discord.gg/rVrYHdrbsp) or the [Issues](https://github.com/P0L3NARUBA/roblox-2016-source-code/issues) section.**
-
-**Want to experience the game in no time? Check out the [Releases](https://github.com/P0L3NARUBA/roblox-2016-source-code/releases)**<br>
-
-**Every contribution moves the project forward — we're always open to new helpers!**
-
-The **[pixel-lighting](https://github.com/P0L3NARUBA/roblox-2016-source-code/tree/pixel-lighting)** branch is not maintained by me and may be outdated compared to the current branch.
+**Want to play the game in no time? Check out [Releases](https://github.com/P0L3NARUBA/roblox-2016-source-code/releases/)**<br>
+**NOTE:** You may need [Rocknet](https://github.com/P0L3NARUBA2/Rocknet-rblx) to launch the game.
 
 # Table of Contents
 1. [🪨 Features / Additions](#-features--additions)
 2. [📚 Libraries Used](#-libraries-used)
 3. [🔨 Tools Used](#-tools-used)
-4. [🎯 Current Goals](#-current-goals)
-5. [⚠️ Current Problems](#%EF%B8%8F-current-problems)
+4. [❤️ Contributors](#%EF%B8%8F-contributors)
+5. [🎯 Current Goals](#-current-goals)
+6. [⚠️ Current Issues](#%EF%B8%8F-current-issues)
 
 ---
 
 ## 🪨 Features / Additions
-- Numerous new features have been added and we're still improving!
-- Compilation-breaking issues have been fixed to ensure all projects work as intended.
-- The entire source has been cleaned up for clarity and ease of use.
-- Splash Screen and Copyright Dates updated.
-- Reverse-engineered several C# libraries and executables using **[ILSpy](https://github.com/icsharpcode/ILSpy/releases)** to make the source accessible.
+- Added a lot of new features, we're continuing to improve it!
+- Fixed issues that breaks the compilation to make every project works like intended.
+- Cleaned up the whole source to make things easier and not complicated.
+- Changed Splash Screen and Copyright Date(s) just for the sake of it.
+- Reverse Engineered some C# libraries and executables using **[ILSpy](/Tools/ILSpy)** to make them open-source.
+- Introducing You [Rocknet](https://github.com/P0L3NARUBA/Rocknet-rblx/tree/local)! A backend made for this particular source.
 
 ## 📚 Libraries Used
 - [Boost](/Contribs/boost_1_56_0) = 1.56.0
@@ -56,11 +51,96 @@ The **[pixel-lighting](https://github.com/P0L3NARUBA/roblox-2016-source-code/tre
 - [hlsl2glslfork](/Rendering/ShaderCompiler/hlsl2glslfork) = *unknown*
 - [mojoshader](/Rendering/ShaderCompiler/mojoshader) = *unknown*
 - [gSOAP](/RCCService/gSOAP/gsoap-2.7) = 2.7.10
-- [RakNet](/Network/raknet) = 5 
 
 ## 🔨 Tools Used
-- [HxD](https://mh-nexus.de/en/downloads.php?product=HxD20)
-- [ILSpy](https://github.com/icsharpcode/ILSpy/releases)
-- [rbxsigner](/Tools/rbxsigner) = *unknown*
+- [cecho](/Tools/cecho) = *unknown*
+- [HxD](/Tools/HxD) = 2.5.0.0
+- [ILSpy](/Tools/ILSpy) = 9.1
 
 ---
+
+## ❤️ Contributors
+[@xspyy](https://github.com/xspyy)
+* fromHSV and fromHex
+* Trustcheck Fixes
+
+[@eprominecraft](https://github.com/eprominecraft)
+* AnchorPoint
+* Post Effects
+
+[@watrabi](https://github.com/watrabi)
+* Sysstats Patch
+
+[@cetcat](https://github.com/cetcat)
+* Helped Compilation of Bootstrappers
+
+Be a contributor by doing a helpful of changes to the source code!
+
+---
+
+## 🎯 Current Goals
+- Backporting/Implementing **Hitius**, **Graphictoria** and **Economy Simulator** Features
+   - [ ] Color3uint8
+   - [ ] R15
+   - [x] :Connect() and :Wait()
+- 64-bit Support
+- Building all the projects with the latest Visual Studio Version **[10/38]** 
+  - [ ] App
+  - [ ] App.BulletPhysics
+  - [ ] Base
+  - [ ] CoreScriptConverter2
+  - [ ] CSG
+  - [ ] Log
+  - [ ] Network
+  - [ ] qtnribbon
+    - It gives "Designtime build failed for project" error, seems like it has an easy fix though.
+  - [ ] RCCService
+  - [ ] RobloxStudio
+  - [ ] sgCore
+  - [ ] WindowsClient
+  #### 3rd Party
+  - [ ] boost.static
+    - Needs a newer Boost version.
+  - [x] DSBaseClasses
+  - [ ] libcurl
+    - OpenSSL libraries gives unresolved external symbols so these should get updated too.
+  - [ ] SDL2
+    - Windows SDK throws "negative subscript" errors.
+  - [x] zlib
+  #### gSOAP
+  - [x] soapcpp2
+  - [x] wsdl2h
+  #### Rendering
+  - [ ] AppDraw
+  - [ ] GfxBase
+  - [ ] GfxCore
+  - [ ] GfxRender
+  - [ ] graphics3D
+  - [ ] LibOVR
+  - [ ] RbxG3D
+  #### Shaders
+  - [ ] ShaderCompiler
+  #### Installer
+  - [ ] Bootstrapper
+  - [ ] BootstrapperClient
+  - [ ] BootstrapperQTStudio
+  - [ ] BootstrapperRCCService
+  - [ ] RobloxProxy
+  #### Other
+  - [x] IncludeChecker
+  - [x] RbxTestHooks
+  - [x] ScriptSigner
+- Be able to build on listed platforms **[1/7]**
+  - [x] Windows
+  - [ ] Android
+  - [ ] Linux
+  - [ ] MacOS / Unix
+  - [ ] iOS
+  - [ ] Xbox / Durango
+  - [ ] CMake 
+
+## ⚠️ Current Issues
+- The Roblox in-game Video Recorder is being awful, pixelated and no sound (just some cracking noises)
+   - The audio can be fixed by Turning on the Compatibility Mode to Windows 8 or 7.
+- When importing some models or opening places all parts are colored as gray
+   - This is due to the source doesn't have Color3uint8 support, however we'll add it ASAP.
